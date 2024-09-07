@@ -7,6 +7,4 @@ Esta es la tarea #1 - Personal Web, esta es la captura de pantalla.
 
 
 
-
-
 Hecha por Carolin Cristal Ortiz Alcantara
