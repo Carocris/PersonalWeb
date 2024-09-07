@@ -1,0 +1,1007 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0c0c0c;
+    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-page {
+    background-color: #000000;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    padding: 250px;
+    width: 650px;
+    left: 199px;
+    height: 278vh;
+    margin: 20px;
+    position: relative;
+    box-shadow: 40px 400px 500px 4cap #6c98b180;
+    
+}
+
+.container-page nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1.5%;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 145%;
+    /* Ajusta el ancho según sea necesario */
+    bottom: 200px;
+    right: 220px;
+
+
+}
+
+.container-page nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    /* Elimina cualquier margen adicional */
+    padding: 0;
+    /* Elimina cualquier padding adicional */
+}
+
+.container-page nav ul li {
+    margin-left: 30px;
+}
+
+.container-page nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.container-page nav ul li a:hover,
+.container-page nav ul li a.active {
+    color: #d6bdee;
+}
+
+.container-page a {
+    color: #7648d7;
+    text-decoration: none;
+}
+
+.container-page nav h1 {
+    color: #f0f0f0;
+}
+
+
+.morado-about {
+
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    margin-top: -200px;
+    left: 0px;
+
+}
+
+
+/* Seccion de sobre mi*/
+
+.about-section {
+    color: white;
+    margin: 0px;
+    /* Elimina cualquier margen externo */
+    padding: 0;
+    /* Elimina el padding superior e inferior para que la sección suba */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    /* Asegura que la sección tenga una altura mínima suficiente */
+}
+
+.about-image {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    /* Ajusta el tamaño según sea necesario */
+    height: 400px;
+    right: 100px;
+    bottom: 60px;
+}
+
+
+.about-content {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 190px;
+    top: 380px;
+
+}
+
+.Nombre {
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 260px;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Nombre h2 {
+    Color: rgb(253, 253, 253);
+    font-size: 30px;
+}
+
+
+.circle-bg {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    /* Ajusta el tamaño según sea necesario */
+    height: 300px;
+    background-color: rgb(219, 207, 207);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-bg img {
+   
+    width: 350px;
+    /* Ajusta el tamaño de la imagen */
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 0 40px 10px rgba(109, 77, 120, 0.5);
+}
+
+.circle-bg:hover {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 0 40px 10px rgba(196, 98, 228, 0.9);
+}
+
+.about-content {
+    max-width: 550px;
+    /* Ajusta el ancho máximo del texto */
+    text-align: left;
+    /* Asegura que el texto esté alineado a la izquierda */
+    margin-top: 0;
+    /* Elimina cualquier margen superior */
+}
+
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Solid border */
+
+hr.solid {
+
+    border-top: 1px solid #ffffff;
+    margin-top: -200px;
+    border-color: rgba(153, 141, 179, 0.2);
+    width: 1150px;
+    margin-left: -250px;
+}
+
+/* Segunda seccion - Hobbies */
+
+
+.polaroid-container {
+    display: flex;
+    justify-content: space-around;
+    /* Espacio igual entre los elementos */
+    gap: 10px;
+    /* Añade espacio entre las cards */
+    position: absolute;
+    right: -150px;
+    align-items: center;
+    top: 850px;
+    box-shadow: #0092cb;
+
+
+}
+
+
+/*
+.polaroid {
+
+    background-color: white;
+    width: 200px; 
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    right: 100px;
+    align-items: center;
+
+}
+*/
+.polaroid:nth-child(1) {
+    background-color: white;
+    width: 300px;
+    /* Ajusta el tamaño del polaroid */
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    right: 900px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    
+
+}
+
+.polaroid:nth-child(2) {
+    background-color: white;
+    width: 300px;
+    /* Ajusta el tamaño del polaroid */
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    right: 100px;
+    align-items: center;
+    position: absolute;
+    right: 560px;
+    top: 10px;
+
+
+}
+
+.polaroid:nth-child(3) {
+    background-color: white;
+    width: 300px;
+    /* Ajusta el tamaño del polaroid */
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    right: 100px;
+    align-items: center;
+    position: absolute;
+    right: 220px;
+    top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.polaroid img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.pola {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.imagene,
+.imagene-2,
+.imagene-3 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    /* Transición suave */
+}
+
+.imagene {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://img.freepik.com/free-photo/anime-style-character-space_23-2151133952.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagene-2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://s3.springbeetle.eu/prod-eu-s3/trantor/attachments/ES/old/media/magefan_blog/monitor_1_1.png');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagene-3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://i.pinimg.com/originals/00/1c/4f/001c4f1aed5201124d089a4725503695.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hobb h2 {
+    position: relative;
+    color: #fffcff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.polaroid:nth-child(1):hover,
+.polaroid:nth-child(2):hover,
+.polaroid:nth-child(3):hover {
+
+    transform: scale(1.2);
+    box-shadow: 0 0 35px rgba(123, 74, 226, 0.7);
+}
+
+
+.pola:hover {
+    transform: scale(1.0);
+    box-shadow: 0 0 35px rgba(123, 74, 226, 0.7);
+    /* Sombra más intensa al hacer clic */
+}
+
+/* Solid border */
+
+hr.solido {
+
+    border-top: 1px solid #7B4AE2;
+    margin-top: 500px;
+    width: 1150px;
+    margin-left: -250px;
+    border-color: rgba(153, 141, 179, 0.2);
+
+}
+
+
+
+/* NUEVA SECCION*/
+
+
+.video {
+    margin-top: 150px;
+}
+
+#slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked~#slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked~#slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked~#slides .inner {
+    margin-left: -200%;
+}
+
+#slide4:checked~#slides .inner {
+    margin-left: -300%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .slide {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+#slides .slide_1 {
+    background: #00171F;
+}
+
+#slides .slide_2 {
+    background: #000000;
+}
+
+#slides .slide_3 {
+    background: #080808;
+}
+
+#slides .slide_4 {
+    background: #0a0a0a;
+}
+
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+#slide1:checked~#controls label:nth-child(2),
+#slide2:checked~#controls label:nth-child(3),
+#slide3:checked~#controls label:nth-child(4),
+#slide4:checked~#controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+#slide1:checked~#controls label:nth-last-child(2),
+#slide2:checked~#controls label:nth-last-child(3),
+#slide3:checked~#controls label:nth-last-child(4),
+#slide4:checked~#controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#slide1:checked~#bullets label:nth-child(1),
+#slide2:checked~#bullets label:nth-child(2),
+#slide3:checked~#bullets label:nth-child(3),
+#slide4:checked~#bullets label:nth-child(4) {
+    background: #444;
+}
+
+@media screen and (max-width: 900px) {
+
+    #slide1:checked~#controls label:nth-child(2),
+    #slide2:checked~#controls label:nth-child(3),
+    #slide3:checked~#controls label:nth-child(4),
+    #slide4:checked~#controls label:nth-child(1),
+    #slide1:checked~#controls label:nth-last-child(2),
+    #slide2:checked~#controls label:nth-last-child(3),
+    #slide3:checked~#controls label:nth-last-child(4),
+    #slide4:checked~#controls label:nth-last-child(1) {
+        margin: 0;
+    }
+
+    #slides {
+        max-width: calc(100% - 140px);
+        margin: 0 auto;
+    }
+}
+
+.text-video h2 {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+/* Solid border */
+
+.solidoo {
+    border-top: 1px solid #7B4AE2;
+    margin-top: 100px;
+    width: 1150px;
+    margin-left: -250px;
+    border-color: rgba(153, 141, 179, 0.2);
+}
+
+/* Seccion de redes y ultima seccion */
+
+.text-redes h2 {
+    position: relative;
+    color: #fffcff;
+    font-size: 40px;
+    text-align: center;
+    top: 40px;
+}
+
+.contenedor-redes-sociales a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contenedor-redes-sociales {
+    margin: 80px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-redes-sociales a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 160px;
+    line-height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+    left: 100%;
+    margin-left: -35px;
+    background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.contenedor-redes-sociales a span.circulo i {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contenedor-redes-sociales a span.titulo,
+.contenedor-redes-sociales a span.titulo-hover {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+    right: 15px
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    left: 15px
+}
+
+
+/*----------Colores de los botones----------*/
+
+.contenedor-redes-sociales .facebook {
+    border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover,
+.contenedor-redes-sociales .facebook span.circulo {
+    background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover span.circulo,
+.contenedor-redes-sociales .facebook span.titulo {
+    color: #3b5998;
+}
+
+.contenedor-redes-sociales .linkedin {
+    border: 2px solid #1da1f2;
+}
+
+.contenedor-redes-sociales .linkedin:hover,
+.contenedor-redes-sociales .linkedin span.circulo {
+    background: #1da1f2;
+}
+
+.contenedor-redes-sociales .linkedin:hover span.circulo,
+.contenedor-redes-sociales .linkedin span.titulo {
+    color: #1da1f2;
+}
+
+.contenedor-redes-sociales .github {
+    border: 2px solid #b8b8b8;
+}
+
+.contenedor-redes-sociales .github:hover,
+.contenedor-redes-sociales .github span.circulo {
+    background: #b8b8b8;
+}
+
+.contenedor-redes-sociales .github:hover span.circulo,
+.contenedor-redes-sociales .github span.titulo {
+    color: #b8b8b8;
+}
+
+
+/*--------------Mediaqueries--------------*/
+
+@media screen and (max-width: 480px) {
+    .contenedor-redes-sociales a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* otra coSA */
+
+.social {
+    display: flex;
+    list-style: none;
+    margin-top: 2em;
+}
+
+.social li {
+    display: inline;
+    float: left;
+    margin: 0 40px 0 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.social li a {
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
+.social li a strong {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+li.fb {
+    background: url("https://www.hd-tecnologia.com/imagenes/articulos/2017/10/Facebook-comienza-a-dar-soporte-para-videos-4K-2.jpg") #3B5998;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li.github {
+    background: url("https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4e0d816kuzyu700pdbjn.png") #0092cb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li.linke {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/7/7e/LinkedIn_PNG16.png") #0092cb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social:hover li {
+    opacity: 0.3;
+}
+
+.social li {
+    transition-property: opacity;
+    transition-duration: 500ms;
+}
+
+.social li a strong {
+    opacity: 0;
+    transition-property: opacity, top;
+    transition-duration: 250ms;
+}
+
+.social li:hover {
+    opacity: 1;
+}
+
+.social li:hover a strong {
+    opacity: 1;
+    top: -23px;
+}
+
+ .solido3 {
+    border-top: 1px solid #7B4AE2;
+    margin-top: 50px;
+    width: 1150px;
+    margin-left: -250px;
+    border-color: rgba(153, 141, 179, 0.2);
+}
+
+
+.purple1{
+    position: absolute;
+    top: 700px;
+    right: -90px;
+    
+}
+
+.purple2{
+    position: relative;
+    left: 725px;
+    top: 0px;
+    z-index: 1;
+    width: 0px;
+    background-color: #0092cb;
+    height: 0px;
+}
+
+.purple3{
+    position: absolute;
+    left: 950px;
+    top: -10px;
+}
+
+.work{
+    position: absolute;
+    left: 150px;
+    top: 1220px;
+    z-index: 2;
+    
+}
+
+footer {
+    position: absolute;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 210px;
+    color: #ffffff;
+    
+}
+
+/* Avatar Para pantallas más grandes */
+@media (min-width: 1080px) {
+    
+.container-page {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 250px;
+    width: 650px;
+    left: 370px;
+    height: 248vh;
+    margin: 20px;
+    position: relative;
+    box-shadow: 40px 400px 500px 4cap #6c98b180;
+
+} 
+.purple1{
+    position: absolute;
+    top: 890px;
+    right: -90px;
+    
+}
+
+.purple2{
+    position: relative;
+    left: 725px;
+    top: 10px;
+    z-index: 1;
+    width: 0px;
+    background-color: #0092cb;
+    height: 0px;
+}
+
+.purple3{
+    position: absolute;
+    left: 950px;
+    top: -10px;
+}
+
+.work{
+    position: absolute;
+    left: 150px;
+    top: 1487px;
+    z-index: 2;
+    
+}
+
+
+.polaroid-container {
+    display: flex;
+    justify-content: space-around;
+    /* Espacio igual entre los elementos */
+    gap: 10px;
+    /* Añade espacio entre las cards */
+    position: absolute;
+    right: -150px;
+    align-items: center;
+    top: 1050px;
+    box-shadow: #0092cb;
+
+
+}
+
+.hobb h2 {
+    position: relative;
+    color: #fffcff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+    
+}
+
+
+/* Avatar Para laptops o pantallas medianas */
+@media (max-width: 1608px) and (min-width: 768px) {
+    .avatar {
+        max-width: 450px;
+        margin-left: 40.5%;
+        margin-top: -24.5%;
+    }
+
+    .container-page {
+        background-color: #000000;
+        border-radius: 10px;
+        padding: 250px;
+        width: 650px;
+        left: 170px;
+        height: 298vh;
+        margin: 20px;
+        position: relative;
+        box-shadow: 40px 400px 500px 4cap #6c98b180;
+    
+    } 
+
+    .purple1{
+        position: absolute;
+        top: 720px;
+        right: -90px;
+        
+    }
+    
+    .purple2{
+        position: relative;
+        left: 725px;
+        top: 10px;
+        z-index: 1;
+        width: 0px;
+        background-color: #0092cb;
+        height: 0px;
+    }
+    
+    .purple3{
+        position: absolute;
+        left: 950px;
+        top: -10px;
+        width: 0px;
+
+    }
+    
+    .work{
+        position: absolute;
+        left: 150px;
+        top: 1300px;
+        z-index: 2;
+        
+    }
+    
+    
+    .polaroid-container {
+        display: flex;
+        justify-content: space-around;
+        /* Espacio igual entre los elementos */
+        gap: 10px;
+        /* Añade espacio entre las cards */
+        position: absolute;
+        right: -150px;
+        align-items: center;
+        top: 900px;
+        box-shadow: #0092cb;
+    
+    
+    }
+    
+    .hobb h2 {
+        position: relative;
+        color: #fffcff;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    
+    }
+}
+
+/* Avatar Para pantallas pequeñas (tablets y móviles) */
+@media (max-width: 767px) {
+    .avatar {
+        max-width: 200px;
+        margin-left: 25%;
+        margin-top: 0;
+    }
+}
