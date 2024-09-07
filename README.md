@@ -1,5 +1,3 @@
-# PersonalWeb
-
 Esta es la tarea #1 - Personal Web, esta es la captura de pantalla.
 
 ![alt text](image.png)
